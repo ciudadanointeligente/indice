@@ -1,0 +1,324 @@
+[
+    {
+        "name": "Chile",
+        "colour": "#29B79C",
+        "value": 53,
+        "porcentaje": 53,
+        "title": "",
+        "link": "",
+        "children": [
+            {
+                "name": "D1",
+                "colour": "#29B7DD",
+                "children": [
+                    {
+                        "name": "1.1. Exhaustividad y Publicidad del marco normativo",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.2. Existencia regulación transparencia y AI en el Congreso",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.3. Reglamentación del cabildeo o Lobbying",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.4. Registro de intereses",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.5. Publicación de los temas a tratar en la sesión del pleno",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.6. Obligación de registrar actividad plenaria difusión",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.7. Publicación de los temas a tratar en las sesiones de comisiones",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.8. Registro de actividad en comisiones",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.9. Publicidad de los gastos y fiscalización del Congreso",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.10. Oficina de vinculación y atención ciudadana en el Congreso o Asamblea",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.11. Oficinas sub-nacionales de vinculación y atención ciudadana",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.12. Canal de Televisión",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.13. Informes de gestión de las y los legisladores",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.14. Información personal de las y los legisladores",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.15. Existencia de una regulación e instancia para la ética parlamentaria",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "1.16. Normatividad sobre participación",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    }
+                ]
+            },
+            {
+                "name": "D2",
+                "colour": "#29B7DD",
+                "children": [
+                    {
+                        "name": "2.1. Documento con los temas a tratar en la sesión de los plenos",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.2. Documento que registre la memoria legislativa en los plenos",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.3. Asistencia a las sesiones de los plenos",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.4. Votaciones nominales de los plenos",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.5. Versiones estenográficas de las sesiones de los plenos",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.6. Conformación de las comisiones y su agenda",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.7. Asistencia a las sesiones de comisiones",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.8. Votaciones de las sesiones de comisiones",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.9. Versiones estenográficas de las sesiones de las comisiones",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.10. Documento que registre la memoria legislativa en las comisiones",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.11. Asesorías externas",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.12. Publicación de información de viajes",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "2.13. Registro de obsequios a los congresistas",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    }
+                ]
+            },
+            {
+                "name": "D3",
+                "colour": "#EEFFDD",
+                "children": [
+                    {
+                        "name": "3.1. Publicación del presupuesto del Congreso o Asamblea Nacional",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "3.2. Informes sobre la ejecución del presupuesto del Congreso o Asamblea Nacional",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "3.3. Publicación de la ejecución del gasto de las fracciones parlamentarias",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "3.4. Auditorías internas y externas practicadas en el Congreso o Asamblea Nacional",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "3.5. Publicación de los salarios y otras prestaciones de los congresistas o asambleístas",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "3.6. Estructura administrativa del Congreso o Asamblea Nacional",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "3.7. Asesores de los congresistas o asambleístas",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "3.8. Publicación de los estados financieros por viajes de los legisladores por motivo de trabajo (dentro y fuera del país)",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "3.9. Publicación de contratación pública",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "3.10. Publicación de llamados a concurso del personal del Congreso o Asamblea Nacional",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    }
+                ]
+            },
+            {
+                "name": "D4",
+                "colour": "#DDEEFF",
+                "children": [
+                    {
+                        "name": "4.1. Existencia de una oficina de información dentro del Congreso o Asamblea Nacional",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "4.2. Existencia de un mecanismo por el cual se resuelven conflictos al acceso a la información pública",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "4.3. Canal de televisión del Congreso o de la Asamblea Nacional",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "4.4. Publicación de información en páginas web",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "4.5. Canales de información y comunicación del Congreso o Asamblea Nacional",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "4.6. Publicación de información sobre actividades de las y los legisladores",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "4.7. Publicación de información de las y los legisladores",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "4.8. Ingreso de medios de comunicación al recinto del Congreso o Asamblea",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    },
+                    {
+                        "name": "4.9. Participación ciudadana",
+                        "title": "",
+                        "colour": "#960073",
+                        "value": 50
+                    }
+                ]
+            }
+        ]
+    }
+]
