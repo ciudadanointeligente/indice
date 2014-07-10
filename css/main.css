@@ -13,10 +13,14 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  background-color: #f7f7f7;
+  font-size: 14px;
   text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,9 +29,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #006fbd; }
+a:hover   { color: #00b4f2; }
 
 /*****************************************************************************/
 /*
@@ -55,6 +58,16 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
 .site {
   font-size: 115%;
   text-align: justify;
@@ -64,31 +77,40 @@ a:visited { color: #a0a; }
   max-width: 1000px;
 }
 
+.header {
+  max-width: 1000px;
+  width: 80%;
+  text-align: left;
+  margin: 10px auto;
+  background: #333;
+  border-radius: 6px;
+}
+
+.header h1 {
+  font-size: 18px;
+  float: left;
+  padding: 15px 12px;
+  margin: 0;
+}
+
 .header a {
-  font-weight: bold;
+  font-weight: 400;
   text-decoration: none;
+  color: #8F8F8F;
 }
 
 .title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 0;
 }
 
 .title a {
-  color: #a00;
+  color: #FFF;
+  font-weight: 600;
 }
 
 .title a:hover {
-  color: #000;
-}
-
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.header a.extra:hover {
-  color: #000;
+  color: #DADADA;
 }
 
 .meta {
@@ -120,6 +142,46 @@ a:visited { color: #a0a; }
 
 .footer .rss img {
   border: 0;
+}
+
+/*NAV*/
+
+.nav-tabs {
+  float: right;
+  border: none;
+}
+
+.nav>li>a {
+  padding: 14px 10px;
+}
+
+.nav-tabs>li>a {
+  border-radius: 0;
+  border-right: none;
+  border-left: 1px solid rgb(34, 34, 34);
+  border-top: none;
+  border-bottom: none;
+  margin-right: 0px;
+}
+
+.nav-tabs>li:last-child>a {
+  border-radius: 0 6px 6px 0;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: rgba(37, 37, 37, 1);
+  border-color: rgb(31, 31, 31);
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #222;
+  border-color: #1D1D1D;
+}
+
+/*MAPA*/
+
+iframe #share-overlay {
+  display: none!important;
 }
 
 /*****************************************************************************/
