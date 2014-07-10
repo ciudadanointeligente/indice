@@ -78,12 +78,11 @@ a:hover   { color: #00b4f2; }
 }
 
 .header {
-  max-width: 1000px;
-  width: 80%;
   text-align: left;
   margin: 10px auto;
   background: #333;
   border-radius: 6px;
+  position: fixed;
 }
 
 .header h1 {
