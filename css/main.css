@@ -82,6 +82,10 @@ a:hover   { color: #00b4f2; }
   margin: 10px auto;
   background: #333;
   border-radius: 6px;
+  position: relative;
+}
+
+.home .header {
   position: fixed;
 }
 
@@ -118,10 +122,10 @@ a:hover   { color: #00b4f2; }
 
 .footer {
   font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
+  color: #CCCCCC;
   margin-top: 2em;
   overflow: hidden;
+  background: #333;
 }
 
 .footer .contact {
