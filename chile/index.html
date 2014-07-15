@@ -2,147 +2,50 @@
 layout: default
 title: Chile
 ---
-<link rel="stylesheet" href="/css/nvd3.css">
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<script src="//raw.github.com/novus/nvd3/master/nv.d3.min.js" charset="utf-8"></script>
 
-<a name="d1"></a>
-<div class="page-header">
-  <h2>Dimensión Normatividad</h2>
-</div>
+<h1>Chile</h1>
 
-<div id='chart-1'>
-  <svg width="960" height="500"></svg>
-</div>
+<!-- CHART -->
+<style>
+  body {
+    overflow-y:scroll;
+  }
 
-<script>
-d3.json('/data/chile-d1.json', function(data) {
-  nv.addGraph(function() {
-    var chart = nv.models.multiBarHorizontalChart()
-        .x(function(d) { return d.label })
-        .y(function(d) { return d.value })
-        .margin({top: 30, right: 20, bottom: 50, left: 175})
-        .showValues(true)
-        .tooltips(true)
-        .tooltip(function(key, x, y, e, graph){
-          return '<h3>' + key + ' - ' + e.point.title + '</h3>' +
-               '<p>' + y + '%</p>'
-        })
-        .transitionDuration(350);
-    
-    d3.select('#chart-1 svg')
-        .datum(data)
-        .call(chart);
+  text {
+    font: 12px sans-serif;
+  }
 
-    nv.utils.windowResize(chart.update);
+  #chartChileD1 {
+    /*margin: 10px;*/
+    min-width: 100px;
+    min-height: 100px;
+  }
 
-    return chart;
-  });
-}); 
-</script>
+  #chartChileD1 svg, #chartChileD2 svg {
+    height: 300px;
+  }
+</style>
 
-<a name="d2"></a>
-<div class="page-header">
-  <h2>Dimensión Labor del Congreso o Asamblea</h2>
-</div>
+<!-- GRAFICO -->
 
-<div id='chart-2'>
-  <svg width="960" height="500"></svg>
-</div>
+<h2>Normatividad</h2>
 
-<script>
-d3.json('/data/chile-d2.json', function(data) {
-  nv.addGraph(function() {
-    var chart = nv.models.multiBarHorizontalChart()
-        .x(function(d) { return d.label })
-        .y(function(d) { return d.value })
-        .margin({top: 30, right: 20, bottom: 50, left: 175})
-        .showValues(true)
-        .tooltips(true)
-        .tooltip(function(key, x, y, e, graph){
-          return '<h3>' + key + ' - ' + e.point.title + '</h3>' +
-               '<p>' + y + '%</p>'
-        })
-        .transitionDuration(350);
-    
-    d3.select('#chart-2 svg')
-        .datum(data)
-        .call(chart);
+<div class="container">
+  <a id="graph-section"></a>
+  <div id="chartChileD1" class='with-3d-shadow with-transitions'><svg></svg></div>
+</div> 
 
-    nv.utils.windowResize(chart.update);
+<h2>Dimensión Labor del Congreso o Asamblea</h2>
 
-    return chart;
-  });
-}); 
-</script>
+<div class="container">
+  <a id="graph-section"></a>
+  <div id="chartChileD2" class='with-3d-shadow with-transitions'><svg></svg></div>
+</div> 
 
-<a name="d3"></a>
-<div class="page-header">
-  <h2>Dimensión Presupuesto y Gestión Administrativa</h2>
-</div>
+<!-- FIN GRAFICO -->
 
-<div id='chart-3'>
-  <svg width="960" height="500"></svg>
-</div>
-
-<script>
-d3.json('/data/chile-d3.json', function(data) {
-  nv.addGraph(function() {
-    var chart = nv.models.multiBarHorizontalChart()
-        .x(function(d) { return d.label })
-        .y(function(d) { return d.value })
-        .margin({top: 30, right: 20, bottom: 50, left: 175})
-        .showValues(true)
-        .tooltips(true)
-        .tooltip(function(key, x, y, e, graph){
-          return '<h3>' + key + ' - ' + e.point.title + '</h3>' +
-               '<p>' + y + '%</p>'
-        })
-        .transitionDuration(350);
-    
-    d3.select('#chart-3 svg')
-        .datum(data)
-        .call(chart);
-
-    nv.utils.windowResize(chart.update);
-
-    return chart;
-  });
-}); 
-</script>
-
-<a name="d4"></a>
-<div class="page-header">
-  <h2>Dimensión Mecanismos de participación, atención ciudadana y rendición de cuentas</h2>
-</div>
-
-<div id='chart-4'>
-  <svg width="960" height="500"></svg>
-</div>
-
-<script>
-d3.json('/data/chile-d4.json', function(data) {
-  nv.addGraph(function() {
-    var chart = nv.models.multiBarHorizontalChart()
-        .x(function(d) { return d.label })
-        .y(function(d) { return d.value })
-        .margin({top: 30, right: 20, bottom: 50, left: 175})
-        .showValues(true)
-        .tooltips(true)
-        .tooltip(function(key, x, y, e, graph){
-          return '<h3>' + key + ' - ' + e.point.title + '</h3>' +
-               '<p>' + y + '%</p>'
-        })
-        .transitionDuration(350);
-    
-    d3.select('#chart-4 svg')
-        .datum(data)
-        .call(chart);
-
-    nv.utils.windowResize(chart.update);
-
-    return chart;
-  });
-}); 
-</script>
+<script type="text/javascript" src="{{ site.url }}/js/d3.v3.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/nv.d3.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/tooltip.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/data-graph-chile-d1.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/data-graph-chile-d2.js"></script>
