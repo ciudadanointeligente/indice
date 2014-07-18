@@ -4,9 +4,9 @@ long_short_data = [
     color: '#f5292e',
     values: [
       { 
-        "label" : "Venezuela" ,
-        "n_palabras" : 32 ,
-        "value" : 0.32
+        "label" : "Chile" ,
+        "n_palabras" : 49 ,
+        "value" : 0.49
       }
     ]
   },
@@ -15,9 +15,9 @@ long_short_data = [
     color: '#9b3237',
     values: [
       { 
-        "label" : "Venezuela" ,
-        "n_palabras" : 12 ,
-        "value" : 0.12
+        "label" : "Chile" ,
+        "n_palabras" : 49 ,
+        "value" : 0.49
       }
     ]
   },
@@ -26,9 +26,9 @@ long_short_data = [
     color: '#006fbd',
     values: [
       { 
-        "label" : "Venezuela" ,
-        "n_palabras" : 12 ,
-        "value" : 0.12
+        "label" : "Chile" ,
+        "n_palabras" : 50 ,
+        "value" : 0.50
       }
     ]
   },
@@ -37,9 +37,9 @@ long_short_data = [
     color: '#00b4f2',
     values: [
       { 
-        "label" : "Venezuela" ,
-        "n_palabras" : 27 ,
-        "value" : 0.27
+        "label" : "Chile" ,
+        "n_palabras" : 65 ,
+        "value" : 0.65
       },
     ]
   }
@@ -73,9 +73,9 @@ nv.addGraph(function() {
   // chart.yAxis
   //     .tickFormat(d3.format('%'));
 
-  // chart.forceY([0,1]);
+  chart.forceY([0,1]);
 
-  d3.select('#chartVenezuela svg')
+  d3.select('#chartChile svg')
       .datum(long_short_data)
       .call(chart);
 
