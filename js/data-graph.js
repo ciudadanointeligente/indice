@@ -237,7 +237,7 @@ nv.addGraph(function() {
   // chart.yAxis
   //     .tickFormat(d3.format('%'));
 
-  // chart.forceY([0,1]);
+  chart.forceY([0,1]);
 
   d3.select('#chart1 svg')
       .datum(long_short_data)
