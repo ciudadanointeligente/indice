@@ -4,9 +4,9 @@ long_short_data = [
     color: '#f5292e',
     values: [
       { 
-        "label" : "Chile" ,
-        "n_palabras" : 49 ,
-        "value" : 0.49
+        "label" : "Colombia" ,
+        "n_palabras" : 35 ,
+        "value" : 0.35
       }
     ]
   },
@@ -15,9 +15,9 @@ long_short_data = [
     color: '#9b3237',
     values: [
       { 
-        "label" : "Chile" ,
-        "n_palabras" : 49 ,
-        "value" : 0.49
+        "label" : "Colombia" ,
+        "n_palabras" : 46 ,
+        "value" : 0.46
       }
     ]
   },
@@ -26,9 +26,9 @@ long_short_data = [
     color: '#006fbd',
     values: [
       { 
-        "label" : "Chile" ,
-        "n_palabras" : 50 ,
-        "value" : 0.50
+        "label" : "Colombia" ,
+        "n_palabras" : 25 ,
+        "value" : 0.25
       }
     ]
   },
@@ -37,9 +37,9 @@ long_short_data = [
     color: '#00b4f2',
     values: [
       { 
-        "label" : "Chile" ,
-        "n_palabras" : 65 ,
-        "value" : 0.65
+        "label" : "Colombia" ,
+        "n_palabras" : 45 ,
+        "value" : 0.45
       },
     ]
   }
@@ -75,7 +75,7 @@ nv.addGraph(function() {
 
   // chart.forceY([0,1]);
 
-  d3.select('#chartChile svg')
+  d3.select('#chartColombia svg')
       .datum(long_short_data)
       .call(chart);
 
