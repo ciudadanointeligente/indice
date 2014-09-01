@@ -56,7 +56,7 @@ a:hover   { color: #00b4f2; }
 /*MAPA PAISES*/
 
 .map {
-  background: url(/img/map.png) no-repeat;
+  background: url(img/map.png) no-repeat;
   height: 918px;
   width: 813px;
   margin: -10px 0;
