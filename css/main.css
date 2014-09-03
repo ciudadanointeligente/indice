@@ -56,7 +56,7 @@ a:hover   { color: #00b4f2; }
 /*MAPA PAISES*/
 
 .map {
-  background: url(/img/map.png) no-repeat;
+  background: url(../img/map.png) no-repeat;
   height: 918px;
   width: 813px;
   margin: -10px 0;
@@ -87,7 +87,7 @@ a.mexico {
 }
 
 a.mexico .porcentaje {
-  background: url(/img/37.png);
+  background: url(../img/37.png);
 }
 
 a.guatemala {
@@ -97,7 +97,7 @@ a.guatemala {
 }
 
 a.guatemala .porcentaje {
-  background: url(/img/46.png);
+  background: url(../img/46.png);
 }
 
 a.colombia {
@@ -107,7 +107,7 @@ a.colombia {
 }
 
 a.colombia .porcentaje {
-  background: url(/img/38.png);
+  background: url(../img/38.png);
 }
 
 a.venezuela {
@@ -117,7 +117,7 @@ a.venezuela {
 }
 
 a.venezuela .porcentaje {
-  background: url(/img/21.png) no-repeat;
+  background: url(../img/21.png) no-repeat;
 }
 
 a.ecuador {
@@ -127,7 +127,7 @@ a.ecuador {
 }
 
 a.ecuador .porcentaje {
-  background: url(/img/49.png);
+  background: url(../img/49.png);
 }
 
 a.peru {
@@ -137,7 +137,7 @@ a.peru {
 }
 
 a.peru .porcentaje {
-  background: url(/img/55.png);
+  background: url(../img/55.png);
 }
 
 a.bolivia {
@@ -147,7 +147,7 @@ a.bolivia {
 }
 
 a.bolivia .porcentaje {
-  background: url(/img/25.png) no-repeat;
+  background: url(../img/25.png) no-repeat;
 }
 
 a.chile {
@@ -157,7 +157,7 @@ a.chile {
 }
 
 a.chile .porcentaje {
-  background: url(/img/53.png);
+  background: url(../img/53.png);
 }
 
 a.argentina {
@@ -167,7 +167,7 @@ a.argentina {
 }
 
 a.argentina .porcentaje {
-  background: url(/img/36.png) no-repeat;
+  background: url(../img/36.png) no-repeat;
 }
 
 a.uruguay {
