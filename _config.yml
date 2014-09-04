@@ -1,7 +1,6 @@
-name: Indice 2014
 markdown: redcarpet
 pygments: true
 # email: prensa@ciudadanointeligente.org
-title: Indice de Transparencia Legislativa
+title: Indice de Transparencia Legislativa 2014
 # description: "Sitio web de la Fundación Ciudadano Inteligente"
 baseurl: "//ciudadanointeligente.github.io/indice"

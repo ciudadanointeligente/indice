@@ -1,7 +1,7 @@
 long_short_data = [ 
   {
     key: 'Normatividad',
-    color: '#f5292e',
+    color: '#8ac733',
     values: [
       { 
         "label" : "Guatemala" ,
@@ -12,7 +12,7 @@ long_short_data = [
   },
   {
     key: 'Labor del Congreso o Asamblea',
-    color: '#9b3237',
+    color: '#00a64b',
     values: [
       { 
         "label" : "Guatemala" ,
