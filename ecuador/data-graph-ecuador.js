@@ -12,7 +12,7 @@ long_short_data = [
   },
   {
     key: 'Labor del Congreso o Asamblea',
-    color: '#9b3237',
+    color: '#00a64b',
     values: [
       { 
         "label" : "Ecuador" ,
