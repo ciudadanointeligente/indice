@@ -218,13 +218,7 @@ nv.addGraph(function() {
       .y(function(d) { return d.value })
       .margin({top: 0, right: 0, bottom: 0, left: 230})
       .showValues(true)
-      .tooltip(function(key, x, y, e, graph, n_palabras, link_ley) {
-        var text_for_twitter = encodeURIComponent(y + '% de cumplimiento en ' + x + ',');
-        return '<p>' +  e.point.n_palabras + ' palabras en el discurso</p>'
-               // '<p> De las ' + e.point.n_promesas + ' promesas en ' + x + ' entre ' + key + '.</p>' +
-               // '<div><a target="_blank" href="'+ e.point.link_ley +'">¿Cómo cumple la promesa? </a></div>'
-               // '<div style="float:right;"><a href="https://twitter.com/share?text='+text_for_twitter+'&via=ciudadanoi&hashtags=21mayo" target="_blank" class="twitter-share-button"><i class="fa fa-twitter"></i> Twittear</a></div>'
-    })
+      .tooltip(false)
       // .barColor(d3.scale.category20().range())
       .transitionDuration(250)
       .stacked(false)

@@ -58,9 +58,15 @@ a:hover   { color: #00b4f2; }
 .map {
   background: url(../img/map.png) no-repeat;
   height: 918px;
-  width: 813px;
+  width: 100%;
   margin: -10px 0;
   position: relative;
+}
+
+.map .col-md-5 {
+  text-align: right;
+  margin-top: 30px;
+  font-size: 16px;
 }
 
 .map li {
@@ -241,11 +247,10 @@ a.uruguay {
 }
 
 .footer {
-  font-size: 80%;
-  color: #CCCCCC;
   margin-top: 2em;
   overflow: hidden;
   background: #333;
+  padding: 20px;
 }
 
 .footer .contact {
