@@ -95,6 +95,11 @@ long_short_data = [
         "value" : 0.64
       },
       { 
+        "label" : "Uruguay" ,
+        "n_palabras" : 0 ,
+        "value" : 0.70
+      },
+      { 
         "label" : "Venezuela" ,
         "n_palabras" : 1947 ,
         "value" : 0.22
@@ -144,11 +149,6 @@ long_short_data = [
         "label" : "Perú" ,
         "n_palabras" : 118 ,
         "value" : 0.47
-      },
-      { 
-        "label" : "Uruguay" ,
-        "n_palabras" : 0 ,
-        "value" : 0.70
       },
       { 
         "label" : "Venezuela" ,
