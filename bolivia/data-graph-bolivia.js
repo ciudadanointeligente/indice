@@ -5,8 +5,8 @@ long_short_data = [
     values: [
       { 
         "label" : "Bolivia" ,
-        "n_palabras" : 30 ,
-        "value" : 0.30
+        "n_palabras" : 34 ,
+        "value" : 0.34
       }
     ]
   },
@@ -16,8 +16,8 @@ long_short_data = [
     values: [
       { 
         "label" : "Bolivia" ,
-        "n_palabras" : 24 ,
-        "value" : 0.24
+        "n_palabras" : 27 ,
+        "value" : 0.27
       }
     ]
   },
@@ -27,8 +27,8 @@ long_short_data = [
     values: [
       { 
         "label" : "Bolivia" ,
-        "n_palabras" : 13 ,
-        "value" : 0.13
+        "n_palabras" : 20 ,
+        "value" : 0.20
       }
     ]
   },
@@ -38,8 +38,8 @@ long_short_data = [
     values: [
       { 
         "label" : "Bolivia" ,
-        "n_palabras" : 31 ,
-        "value" : 0.31
+        "n_palabras" : 36 ,
+        "value" : 0.36
       },
     ]
   }
