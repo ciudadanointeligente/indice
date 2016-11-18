@@ -1,7 +1,7 @@
 long_short_data = [ 
   {
     key: 'Normatividad',
-    color: '#f5292e',
+    color: '#8ac733',
     values: [
       { 
         "label" : "Ecuador" ,
