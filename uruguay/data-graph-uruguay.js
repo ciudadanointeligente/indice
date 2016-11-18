@@ -16,7 +16,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Uruguay" ,
-        "n_palabras" : 67 ,
+        "n_palabras" : 70 ,
         "value" : 0.67
       }
     ]
