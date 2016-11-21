@@ -5,7 +5,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "value" : 0.32
+        "value" : 0.43
       }
     ]
   },
@@ -15,7 +15,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "value" : 0.12
+        "value" : 0.23
       }
     ]
   },
@@ -25,7 +25,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "value" : 0.12
+        "value" : 0.17
       }
     ]
   },
@@ -35,7 +35,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "value" : 0.27
+        "value" : 0.28
       },
     ]
   }
