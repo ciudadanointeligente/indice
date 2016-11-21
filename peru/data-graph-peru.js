@@ -16,8 +16,8 @@ long_short_data = [
     values: [
       { 
         "label" : "Perú" ,
-        "n_palabras" : 60 ,
-        "value" : 0.60
+        "n_palabras" : 64 ,
+        "value" : 0.64
       }
     ]
   },
@@ -27,8 +27,8 @@ long_short_data = [
     values: [
       { 
         "label" : "Perú" ,
-        "n_palabras" : 32 ,
-        "value" : 0.32
+        "n_palabras" : 47 ,
+        "value" : 0.47
       }
     ]
   },
@@ -38,8 +38,8 @@ long_short_data = [
     values: [
       { 
         "label" : "Perú" ,
-        "n_palabras" : 68 ,
-        "value" : 0.68
+        "n_palabras" : 73 ,
+        "value" : 0.73
       },
     ]
   }
