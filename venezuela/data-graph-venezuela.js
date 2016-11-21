@@ -5,7 +5,6 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 43 ,
         "value" : 0.43
       }
     ]
@@ -16,7 +15,6 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 23 ,
         "value" : 0.23
       }
     ]
@@ -27,7 +25,6 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 17 ,
         "value" : 0.17
       }
     ]
@@ -38,7 +35,6 @@ long_short_data = [
     values: [
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 28 ,
         "value" : 0.28
       },
     ]
@@ -54,9 +50,9 @@ nv.addGraph(function() {
       .margin({top: 0, right: 0, bottom: 0, left: 0})
       .showValues(true)
       // .showLegend(false)
-      .tooltip(function(key, x, y, e, graph, n_palabras, link_ley) {
+      .tooltip(function(key, x, y, e, graph, value, link_ley) {
         var text_for_twitter = encodeURIComponent(y + '% de cumplimiento en ' + x + ',');
-        return '<p>' + e.point.label + ' tiene un ' + e.point.n_palabras + '% de transparencia en ' + key + '</p>'
+        return '<p>' + e.point.label + ' tiene un ' + e.point.value * 100 + '% de transparencia en ' + key + '</p>'
                // '<p> De las ' + e.point.n_promesas + ' promesas en ' + x + ' entre ' + key + '.</p>' +
                // '<div><a target="_blank" href="'+ e.point.link_ley +'">¿Cómo cumple la promesa? </a></div>'
                // '<div style="float:right;"><a href="https://twitter.com/share?text='+text_for_twitter+'&via=ciudadanoi&hashtags=21mayo" target="_blank" class="twitter-share-button"><i class="fa fa-twitter"></i> Twittear</a></div>'
