@@ -5,39 +5,39 @@ long_short_data = [
     values: [
       { 
         "label" : "Argentina" ,
-        "value" : 0.52
+        "value" : 0.53
       } ,
       { 
         "label" : "Bolivia" ,
-        "value" : 0.34
+        "value" : 0.37
       } ,
       { 
         "label" : "Chile" ,
-        "value" : 0.62
+        "value" : 0.61
       } ,
       { 
         "label" : "Colombia" ,
-        "value" : 0.42
+        "value" : 0.44
       } ,
       { 
         "label" : "Ecuador" ,
-        "value" : 0.62
+        "value" : 0.63
       } ,
       { 
         "label" : "Guatemala" ,
-        "value" : 0.49
+        "value" : 0.51
       } ,
       { 
         "label" : "México" ,
-        "value" : 0.70
+        "value" : 0.67
       } , 
       { 
         "label" : "Perú" ,
-        "value" : 0.59
+        "value" : 0.56
       } ,
       { 
         "label" : "Venezuela" ,
-        "value" : 0.43
+        "value" : 0.41
       }
     ]
   },
@@ -63,7 +63,7 @@ long_short_data = [
       },
       { 
         "label" : "Ecuador" ,
-        "value" : 0.48
+        "value" : 0.47
       },
       { 
         "label" : "Guatemala" ,
@@ -101,7 +101,7 @@ long_short_data = [
       },
       { 
         "label" : "Chile" ,
-        "value" : 0.59
+        "value" : 0.61
       },
       { 
         "label" : "Colombia" ,
@@ -167,7 +167,7 @@ long_short_data = [
       },
       { 
         "label" : "Venezuela" ,
-        "value" : 0.28
+        "value" : 0.29
       }
     ]
   }

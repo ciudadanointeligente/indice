@@ -5,7 +5,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Bolivia" ,
-        "value" : 0.34
+        "value" : 0.37
       }
     ]
   },

@@ -5,7 +5,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Ecuador" ,
-        "value" : 0.62
+        "value" : 0.63
       }
     ]
   },
@@ -15,7 +15,7 @@ long_short_data = [
     values: [
       { 
         "label" : "Ecuador" ,
-        "value" : 0.48
+        "value" : 0.47
       }
     ]
   },
