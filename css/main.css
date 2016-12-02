@@ -94,7 +94,13 @@ a.mexico {
 a.mexico .porcentaje {
   background: url(../img/38.png);
 }
-
+.text-white {
+  color: white;
+}
+.extra {
+  background: #4A90E2;
+  padding-top: 11px;
+}
 a.guatemala {
   position: absolute;
   left: 70px;
