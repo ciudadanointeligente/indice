@@ -37,7 +37,7 @@ long_short_data = [
       } ,
       { 
         "label" : "Venezuela" ,
-        "value" : 0.41
+        "value" : 0.38
       }
     ]
   },
@@ -83,7 +83,7 @@ long_short_data = [
       },
       { 
         "label" : "Venezuela" ,
-        "value" : 0.22
+        "value" : 0.20
       }
     ]
   },
@@ -125,7 +125,7 @@ long_short_data = [
       },
       { 
         "label" : "Venezuela" ,
-        "value" : 0.17
+        "value" : 0.06
       }
     ]
   },
@@ -167,7 +167,7 @@ long_short_data = [
       },
       { 
         "label" : "Venezuela" ,
-        "value" : 0.29
+        "value" : 0.24
       }
     ]
   }
