@@ -5,48 +5,39 @@ long_short_data = [
     values: [
       { 
         "label" : "Argentina" ,
-        "n_palabras" : 2160 ,
-        "value" : 0.46
+        "value" : 0.53
       } ,
       { 
         "label" : "Bolivia" ,
-        "n_palabras" : 1679 ,
-        "value" : 0.30
+        "value" : 0.37
       } ,
       { 
         "label" : "Chile" ,
-        "n_palabras" : 904 ,
-        "value" : 0.49
+        "value" : 0.61
       } ,
       { 
         "label" : "Colombia" ,
-        "n_palabras" : 882 ,
-        "value" : 0.35
+        "value" : 0.44
       } ,
       { 
         "label" : "Ecuador" ,
-        "n_palabras" : 818 ,
-        "value" : 0.51
+        "value" : 0.63
       } ,
       { 
         "label" : "Guatemala" ,
-        "n_palabras" : 806 ,
-        "value" : 0.43
+        "value" : 0.51
       } ,
       { 
         "label" : "México" ,
-        "n_palabras" : 789 ,
-        "value" : 0.47
+        "value" : 0.67
       } , 
       { 
         "label" : "Perú" ,
-        "n_palabras" : 764 ,
-        "value" : 0.59
+        "value" : 0.56
       } ,
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 649 ,
-        "value" : 0.32
+        "value" : 0.38
       }
     ]
   },
@@ -56,53 +47,43 @@ long_short_data = [
     values: [
       { 
         "label" : "Argentina" ,
-        "n_palabras" : 1246 ,
-        "value" : 0.57
+        "value" : 0.55
       },
       { 
         "label" : "Bolivia" ,
-        "n_palabras" : 861 ,
-        "value" : 0.24
+        "value" : 0.27
       },
       { 
         "label" : "Chile" ,
-        "n_palabras" : 42 ,
-        "value" : 0.49
+        "value" : 0.69
       },
       { 
         "label" : "Colombia" ,
-        "n_palabras" : 1178 ,
-        "value" : 0.46
+        "value" : 0.51
       },
       { 
         "label" : "Ecuador" ,
-        "n_palabras" : 1181 ,
-        "value" : 0.42
+        "value" : 0.47
       },
       { 
         "label" : "Guatemala" ,
-        "n_palabras" : 1329 ,
-        "value" : 0.52
+        "value" : 0.55
       },
       { 
         "label" : "México" ,
-        "n_palabras" : 301 ,
-        "value" : 0.46
+        "value" : 0.44
       }, 
       { 
         "label" : "Perú" ,
-        "n_palabras" : 1324 ,
-        "value" : 0.60
+        "value" : 0.64
       },
       { 
         "label" : "Uruguay" ,
-        "n_palabras" : 0 ,
-        "value" : 0.67
+        "value" : 0.70
       },
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 1947 ,
-        "value" : 0.12
+        "value" : 0.20
       }
     ]
   },
@@ -112,48 +93,39 @@ long_short_data = [
     values: [
       { 
         "label" : "Argentina" ,
-        "n_palabras" : 713 ,
-        "value" : 0.17
+        "value" : 0.20
       },
       { 
         "label" : "Bolivia" ,
-        "n_palabras" : 1326 ,
-        "value" : 0.13
+        "value" : 0.20
       },
       { 
         "label" : "Chile" ,
-        "n_palabras" : 506 ,
-        "value" : 0.50
+        "value" : 0.61
       },
       { 
         "label" : "Colombia" ,
-        "n_palabras" : 522 ,
-        "value" : 0.25
+        "value" : 0.48
       },
       { 
         "label" : "Ecuador" ,
-        "n_palabras" : 314 ,
-        "value" : 0.36
+        "value" : 0.46
       },
       { 
         "label" : "Guatemala" ,
-        "n_palabras" : 1094 ,
-        "value" : 0.32
+        "value" : 0.41
       },
       { 
         "label" : "México" ,
-        "n_palabras" : 339 ,
-        "value" : 0.21
+        "value" : 0.28
       }, 
       { 
         "label" : "Perú" ,
-        "n_palabras" : 118 ,
-        "value" : 0.32
+        "value" : 0.47
       },
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 0 ,
-        "value" : 0.12
+        "value" : 0.06
       }
     ]
   },
@@ -163,48 +135,39 @@ long_short_data = [
     values: [
       { 
         "label" : "Argentina" ,
-        "n_palabras" : 713 ,
         "value" : 0.23
       },
       { 
         "label" : "Bolivia" ,
-        "n_palabras" : 1326 ,
-        "value" : 0.31
+        "value" : 0.36
       },
       { 
         "label" : "Chile" ,
-        "n_palabras" : 506 ,
-        "value" : 0.65
+        "value" : 0.64
       },
       { 
         "label" : "Colombia" ,
-        "n_palabras" : 522 ,
-        "value" : 0.45
+        "value" : 0.46
       },
       { 
         "label" : "Ecuador" ,
-        "n_palabras" : 314 ,
-        "value" : 0.68
+        "value" : 0.71
       },
       { 
         "label" : "Guatemala" ,
-        "n_palabras" : 1094 ,
-        "value" : 0.55
+        "value" : 0.56
       },
       { 
         "label" : "México" ,
-        "n_palabras" : 339 ,
-        "value" : 0.33
+        "value" : 0.38
       }, 
       { 
         "label" : "Perú" ,
-        "n_palabras" : 118 ,
-        "value" : 0.68
+        "value" : 0.73
       },
       { 
         "label" : "Venezuela" ,
-        "n_palabras" : 0 ,
-        "value" : 0.27
+        "value" : 0.24
       }
     ]
   }
